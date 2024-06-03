@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <style>
+        header b{
+            background-color: aqua;
+            color:aliceblue;
+            font-size: 50px;
+        } 
+        header>b{
+            background-color: blue;
+            color:white;
+            font-style: italic;
+            font-family: 'Tangerine', serif;
+            font-size: 48px;
+        }
+        
+        .eldest~p{
+            background-color: darkturquoise;
+            color:white; 
+            font-family: 'Tangerine', serif;
+            font-size: 48px;  
+        }
+        .eldest+p{
+            background-color: darkorange;
+            color:azure;
+            font-family: 'Tangerine', serif;
+            font-size: 48px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <b>I am  a child of header</b>
+        <div class="pp1"><b>I am a child of pp1</b>
+        <div class="pp2">
+            <b>I am a child of pp2</b>
+        </div></div>
+     <b>I am child of header</b>
+    </header>
+    <section>
+        <h2 class="eldest">I am the eldest sibling</h2>
+        <p>I am the 2nd sibling</p>
+        <i>I am the 3rd sibling</i>
+        <p>I am 4th sibling</p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.srk{
+    margin-top: 250px;
+}
+#tab{
+    margin-left: 200px;
+}
+ h1{
+    margin-left: 500px;
+}
+#tr{
+    margin:10px;
+}
+    
+
+img{
+    margin-right: 50px;
+    margin-top: 40px;
+    width:600;
+}
+p{
+    margin-right: 50px;
+}
+#btn{
+    color: rgb(22, 200, 141);
+    background-color: rgb(31, 115, 189);
+    padding:10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+h2{
+    text-align: right;
+    margin-right: 50px;
+    
+    
+}

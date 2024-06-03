@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style> 
+       .main{
+        background-color: antiquewhite;
+        height: 690px;
+        width:600px;
+        padding:40px;
+        border-radius: 20px;
+        margin-left: 28%;
+       } 
+       h2{
+        text-align:center;
+       }
+       #inp{
+        width:300px;
+        height: 25px;
+       }
+       #btn{
+        text-align: center;
+       }
+       button{
+        width:130px;
+        height:30px;
+        font-size: 13.5px;
+        border: none;
+        border-radius: 20px;
+        background-color:rgb(26, 75, 192);
+        color:rgb(32, 197, 247);
+        cursor: pointer;
+       }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <form action="" >
+        <h2>Online Application Form</h2>
+        <p>Please fill out the following fields to submit your application.</p>
+        <label for="">First Name</label>
+        <input type="text" placeholder="Enter your first name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="">Last Name</label>
+        <input type="text" placeholder="Enter your last name"><br><br>
+        <label for="">Email Address*</label><br>
+        <input id="inp" type="email" placeholder="Enter your email address"><br>
+        <span>We'll use this to contact you about your application.</span><br><br>
+        <label>Contact Number</label><br>
+        <input id="inp" type="tel" placeholder="Enter your contact number"><br><br>
+        <label for="">Date of Birth</label><br>
+        <input id="inp" type="date" placeholder="Enter your date of birth"><br>
+        <span>Please use the format:MM/DD/YYYY</span><br><br>
+        <label for="">Country of Residence</label><br>
+        <select name="" id="inp" >
+            <option value="">India</option>
+            <option value="">United Arab Emirates</option>
+            <option value="">China</option>
+            <option value="">United States of America</option>
+            <option value="">Brazil</option>
+            <option value="">Japan</option>
+            <option value="">Hongkong</option>
+            <option value="">Singapore</option>
+        </select>
+        <br><br>
+        <label for="">City</label><br>
+        <input id="inp" type="text" placeholder="Enter your city"><br><br>
+        <label for="">Why do you want to apply?</label><br>
+        <input id="inp" type="text" placeholder="Tell us more about your motivations"><br><br>
+        <label for="">Upload Resume</label><br>
+        <span>Please upload your CV in PDF format.</span><br>
+        <input type="file"><br><br>
+        <input type="checkbox"><span>I agree to the terms and conditions</span><br><br>
+        <div id="btn"><button type="submit">Submit Application</button></div>
+        </form>
+    </div>
+</body>
+</html>
